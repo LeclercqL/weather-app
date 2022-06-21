@@ -1,0 +1,17 @@
+.save-search {
+  transition: transform 0.2s ease-in;
+  padding: 1rem;
+}
+
+.save-search__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.save-search__item {
+  margin-right: 1rem;
+  a {
+    color: $link-color;
+    text-decoration: underline;
+  }
+}
